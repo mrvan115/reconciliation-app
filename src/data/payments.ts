@@ -1,0 +1,122 @@
+import {v4 as uuidv4} from "uuid";
+import type {Payment} from "../types";
+
+export const payments: Payment[] = [
+    {
+        id: uuidv4(),
+        date: "2025-08-01",
+        type: "электронный",
+        amount: 5000,
+        customer: "ООО Ромашка",
+        customerInn: "1234567890",
+        executor: "Учебный центр №1",
+        executorInn: "9876543210",
+        examName: "Иванов Иван",
+        paymentComment: "Оплата по договору №123",
+        accountantComment: ""
+    },
+    {
+        id: uuidv4(),
+        date: "2025-08-02",
+        type: "наличный",
+        amount: 7000,
+        customer: "ООО Василёк",
+        customerInn: "1231231231",
+        executor: "Учебный центр №2",
+        executorInn: "3213213210",
+        examName: "Петров Петр",
+        paymentComment: "Оплата за обучение",
+        accountantComment: ""
+    },
+    {
+        id: uuidv4(),
+        date: "2025-08-03",
+        type: "электронный",
+        amount: 6000,
+        customer: "ООО Лотос",
+        customerInn: "1122334455",
+        executor: "Учебный центр №3",
+        executorInn: "5544332211",
+        examName: "Сидоров Сидор",
+        paymentComment: "Оплата по договору №456",
+        accountantComment: ""
+    },
+    {
+        id: uuidv4(),
+        date: "2025-08-04",
+        type: "наличный",
+        amount: 4500,
+        customer: "ООО Роза",
+        customerInn: "6677889900",
+        executor: "Учебный центр №4",
+        executorInn: "0099887766",
+        examName: "Кузнецов Кузьма",
+        paymentComment: "Оплата за экзамен",
+        accountantComment: ""
+    },
+    {
+        id: uuidv4(),
+        date: "2025-08-05",
+        type: "электронный",
+        amount: 8000,
+        customer: "ООО Лилия",
+        customerInn: "1010101010",
+        executor: "Учебный центр №5",
+        executorInn: "0101010101",
+        examName: "Федоров Фёдор",
+        paymentComment: "Оплата обучения",
+        accountantComment: ""
+    },
+    {
+        id: uuidv4(),
+        date: "2025-08-06",
+        type: "наличный",
+        amount: 5500,
+        customer: "ООО Ромашка 2",
+        customerInn: "2233445566",
+        executor: "Учебный центр №6",
+        executorInn: "6655443322",
+        examName: "Николаев Николай",
+        paymentComment: "Оплата за курс",
+        accountantComment: ""
+    },
+    {
+        id: uuidv4(),
+        date: "2025-08-07",
+        type: "электронный",
+        amount: 7200,
+        customer: "ООО Василёк 2",
+        customerInn: "3344556677",
+        executor: "Учебный центр №7",
+        executorInn: "7766554433",
+        examName: "Александров Александр",
+        paymentComment: "Оплата за обучение",
+        accountantComment: ""
+    },
+    {
+        id: uuidv4(),
+        date: "2025-08-08",
+        type: "наличный",
+        amount: 4800,
+        customer: "ООО Лотос 2",
+        customerInn: "4455667788",
+        executor: "Учебный центр №8",
+        executorInn: "8877665544",
+        examName: "Васильев Василий",
+        paymentComment: "Оплата за экзамен",
+        accountantComment: ""
+    },
+    {
+        id: uuidv4(),
+        date: "2025-08-09",
+        type: "электронный",
+        amount: 8300,
+        customer: "ООО Роза 2",
+        customerInn: "5566778899",
+        executor: "Учебный центр №9",
+        executorInn: "9988776655",
+        examName: "Михайлов Михаил",
+        paymentComment: "Оплата по договору",
+        accountantComment: ""
+    },
+];
