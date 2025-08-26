@@ -3,14 +3,18 @@ import {PaymentsTable} from "../components/PaymentsTable.tsx";
 import {InvoicesTable} from "../components/InvoicesTable.tsx";
 import {payments} from "../data/payments.ts";
 import {invoices} from "../data/invoices.ts";
-import {useState} from "react";
 
-type PropsType = {}
+// type PropsType = {}
 
 
-export const ReconciliationPage = (props: PropsType) => {
-    const [selectedPaymentId, setSelectedPaymentId] = useState<string | null>(null);
-    const [selectedInvoiceId, setSelectedInvoiceId] = useState<string | null>(null);
+export const ReconciliationPage = () => {
+    // const [selectedPaymentId, setSelectedPaymentId] = useState<string | null>(null);
+    // const [selectedInvoiceId, setSelectedInvoiceId] = useState<string | null>(null);
+
+    const selectedPaymentId = null
+    const selectedInvoiceId = null
+
+
 
     const handleClick = () => {
         if (!selectedPaymentId || !selectedInvoiceId) {
